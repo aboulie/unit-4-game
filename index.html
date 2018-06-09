@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector Game</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Grid container -->
+  <div class="container">
+
+    <!-- Row 1 - Header row -->
+    <div class="row">
+      <div class="col-sm-12 col-md-12 head">
+        <h1><center>Crystal Collector!</center></h1>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Row 2 - Game info row with three text columns -->
+    <div class="row">
+      <div class="col-sm-4 col-md-4 info">
+        <h3>At the start of the game, you will be given a random number.</h3>
+        <h4>Below, there are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        </h4>
+      </div>
+      <div class="col-sm-4 col-md-4 info">
+        <h3>To win the game, match your total score to the random number.</h3>
+        <h4>If your total score goes above the random number, you lose.</h4>
+      </div>
+      <div class="col-sm-4 col-md-4 info">
+        <h3>Each crystal has its own value which is hidden from you until you click on the crystal.</h4>
+        <h4>Restarting the game will change the values of each crystal.</h4>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Images -->
+    <div class="row" id="imgContainer">
+
+    </div>
+
+    <!-- Number to guess and total score area -->
+    <div class="row guessScore">
+      <div class="col-sm-6 col-md-6 guess">
+        <h2>Number to Guess:
+          <span id="numberToGuess"></span>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-md-6 score">
+        <h2>Your Score:
+          <span id="userScore"></span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- Wins / Losses area -->
+    <div class="row winsLosses">
+      <div class="col-sm-12 col-md-6 wins">
+        <h2>Wins:
+          <span id="wins"></span>
+        </h2>
+      </div>
+      <div class="col-sm-12 col-md-6 losses">
+        <h2>Losses:
+          <span id="losses"></span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- Result statement area -->
+    <div class="row statement">
+      <div class="col-sm-12 col-md-12">
+        <h1>
+          <span id="statement"></span>
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      Copyright &copy; Dareen Mohamad
+    </div>
+  </footer>
+
+  <!-- Linking to JavaScript files -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

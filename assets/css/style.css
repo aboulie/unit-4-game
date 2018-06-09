@@ -1,0 +1,76 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    color: #fff;
+    background: #41a1fa;
+    font-family: 'Cormorant Unicase', serif;
+    margin-bottom: 65px;
+  }
+  
+  .head {
+    padding: 60px 0px 20px 10px;
+  }
+  
+  .info {
+    padding-right: 5px;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    clear: both;
+  }
+  
+  h4 {
+    margin-top: 30px;
+  }
+  
+  hr {
+    border-width: 5px;
+    color: #fff;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .imgRow {
+    margin-top: 10px;
+    /* width: 100%; */
+  }
+  
+  /* .crystalImage {
+    height: auto;
+    width: calc(25% - 20px);
+    margin: 10px;
+  } */
+  
+  .guessScore {
+    margin-top: 40px;
+  }
+  
+  #numberToGuess, #userScore, #wins, #losses {
+    margin-left: 30px;
+    color: #000000;
+  }
+  
+  .winsLosses {
+    margin-top: 10px;
+  }
+  
+  .statement {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    line-height: 55px;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border-top: 5px solid #fff;
+  }
